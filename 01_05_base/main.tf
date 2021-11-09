@@ -152,3 +152,4 @@ data "aws_ami" "aws-linux" {
 output "instance-dns" {
   value = aws_instance.nodejs1.public_dns
 }
+# test
